@@ -1,0 +1,62 @@
+.minus .valuelist {
+    text-decoration: line-through;
+}
+.form_todolist .maintodolist{
+    width: 550px;
+}
+
+.field_btn {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+.field_btn input[type="text"] {
+    flex-grow: 2;
+    width: inherit;
+    border-radius: 6px;
+    height: 45px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    
+}
+.field_btn button {
+    margin-top: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.form_todolist {
+    margin-bottom: 4%;
+}
+input::placeholder {
+    font-family: "Inter", sans-serif;
+}
+span.backgroundli {
+    height: 100%;
+    width: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px !important;
+}
+.outerdiv li:first-child span.backgroundli{
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+}
+.outerdiv li:nth-child(2) span.backgroundli{
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+.outerdiv li:nth-child(3) span.backgroundli{
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+.outerdiv li:nth-child(4) span.backgroundli{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.outerdiv li:nth-child(5) span.backgroundli{
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
